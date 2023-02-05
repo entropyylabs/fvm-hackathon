@@ -1,6 +1,14 @@
 import styles from "./HomeExplore.module.css";
 
+import { useAccount, useConnect, useEnsName } from "wagmi";
+import { MetaMaskConnector } from "wagmi/connectors/metaMask";
+
 const HomeExplore = () => {
+  const { address, isConnected } = useAccount();
+  const { connect } = useConnect({
+    connector: new MetaMaskConnector(),
+  });
+
   return (
     <div className={styles.homeExplore}>
       <div className={styles.rectangleParent}>
@@ -46,7 +54,6 @@ const HomeExplore = () => {
         <div className={styles.members1000}>Members : 30</div>
         <b className={styles.bestCookie}>
           <span className={styles.vbsDaoTxtContainer}>
-            <p className={styles.blankLine}>&nbsp;</p>
             <p className={styles.blankLine}>BEST</p>
             <p className={styles.blankLine}>COOKIE</p>
           </span>
@@ -122,7 +129,13 @@ const HomeExplore = () => {
         <div className={styles.ellipseParent}>
           <img className={styles.ellipseIcon} alt="" src="../ellipse-5.svg" />
           <img className={styles.frameIcon} alt="" src="../frame6.svg" />
-          <i className={styles.address}>Address</i>
+          <i className={styles.address}>
+            {isConnected ? (
+              address
+            ) : (
+              <button onClick={() => connect()}>Connect Wallet</button>
+            )}
+          </i>
         </div>
         <img className={styles.frameChild6} alt="" src="../frame-442.svg" />
       </nav>

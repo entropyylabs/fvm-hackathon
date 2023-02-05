@@ -59,7 +59,7 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/home-explore":
+      case "/home":
         title = "";
         metaDescription = "";
         break;
@@ -123,7 +123,7 @@ function App() {
 
       <Route path="/show-the-output" element={<SHOWTHEOUTPUT />} />
 
-      <Route path="/home-explore" element={<HomeExplore />} />
+      <Route path="/home" element={<HomeExplore />} />
 
       <Route
         path="/dao-page-as-a-member-members"
