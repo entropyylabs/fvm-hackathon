@@ -131,7 +131,7 @@ const HomeExplore = () => {
           <img className={styles.frameIcon} alt="" src="../frame6.svg" />
           <i className={styles.address}>
             {isConnected ? (
-              address
+              address.slice(0, 6) + "..." + address.slice(-4)
             ) : (
               <button onClick={() => connect()}>Connect Wallet</button>
             )}
