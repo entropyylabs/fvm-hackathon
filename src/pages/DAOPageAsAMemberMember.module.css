@@ -1,0 +1,482 @@
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-md);
+  background-color: transparent;
+  width: 1214px;
+  height: 592px;
+}
+.owners,
+.volunteers {
+  position: absolute;
+  top: 110px;
+  left: 62px;
+  font-size: var(--font-size-sm);
+  letter-spacing: 0.2px;
+  line-height: 32px;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  width: 182px;
+  height: 36px;
+}
+.volunteers {
+  left: 331px;
+}
+.frameIcon,
+.frameItem {
+  position: absolute;
+  top: -1px;
+  left: 0;
+  width: 48px;
+  height: 50px;
+}
+.frameIcon {
+  top: 0;
+  height: 48px;
+  overflow: hidden;
+}
+.johnDoe,
+.owner {
+  position: absolute;
+  top: 0;
+  left: 62px;
+  letter-spacing: 0.2px;
+  line-height: 128px;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  width: 130px;
+  height: 18px;
+}
+.owner {
+  top: 21px;
+  font-size: var(--font-size-4xs);
+  line-height: 20px;
+}
+.ellipseParent,
+.johnDoe1 {
+  position: absolute;
+  top: 0;
+  left: 1px;
+  width: 192px;
+  height: 48px;
+}
+.johnDoe1 {
+  top: 2px;
+  left: 62px;
+  letter-spacing: 0.2px;
+  line-height: 128px;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  width: 130px;
+  height: 18px;
+}
+.ellipseGroup,
+.frameIcon1 {
+  position: absolute;
+  height: 48px;
+}
+.frameIcon1 {
+  top: -1px;
+  left: 0;
+  width: 48px;
+  overflow: hidden;
+}
+.ellipseGroup {
+  top: 73px;
+  left: 1px;
+  width: 192px;
+  color: var(--color-gray-100);
+}
+.checker {
+  position: absolute;
+  top: 23px;
+  left: 62px;
+  font-size: var(--font-size-4xs);
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  width: 130px;
+  height: 18px;
+}
+.frameIcon2 {
+  position: absolute;
+  top: 1px;
+  left: 0;
+  width: 48px;
+  height: 48px;
+  overflow: hidden;
+}
+.ellipseContainer,
+.frameDiv,
+.frameParent,
+.johnDoeParent {
+  position: absolute;
+  top: 146px;
+  left: 1px;
+  width: 192px;
+  height: 48px;
+}
+.ellipseContainer,
+.frameDiv,
+.frameParent {
+  top: 219px;
+}
+.frameDiv,
+.frameParent {
+  top: 292px;
+  left: 0;
+}
+.frameParent {
+  top: 171px;
+  left: 61px;
+  width: 193px;
+  height: 340px;
+  font-size: var(--font-size-2xs);
+  color: var(--light-black);
+}
+.ellipseParent2 {
+  position: absolute;
+  top: 73px;
+  left: 1px;
+  width: 192px;
+  height: 48px;
+}
+.frameContainer,
+.frameGroup {
+  position: absolute;
+  top: 170px;
+  left: 330px;
+  width: 193px;
+  height: 340px;
+  font-size: var(--font-size-2xs);
+  color: var(--light-black);
+}
+.frameContainer {
+  left: 599px;
+}
+.collectionDetails,
+.daoPerformance {
+  position: absolute;
+  letter-spacing: 0.2px;
+  line-height: 96px;
+  display: flex;
+  align-items: center;
+  width: 217px;
+  height: 58px;
+}
+.collectionDetails {
+  top: 9px;
+  left: 42px;
+  text-transform: capitalize;
+  color: var(--color-gray-200);
+}
+.daoPerformance {
+  top: 7px;
+  left: 654px;
+  color: var(--color-gray-600);
+}
+.daoPerformance,
+.storage {
+  text-transform: capitalize;
+}
+.storageBountiesTxtContainer {
+  line-break: anywhere;
+  width: 100%;
+}
+.members,
+.storageBounties {
+  position: absolute;
+  top: 9px;
+  letter-spacing: 0.2px;
+  display: flex;
+  align-items: center;
+  height: 58px;
+}
+.storageBounties {
+  left: 952px;
+  line-height: 24px;
+  color: var(--color-gray-600);
+  width: 224px;
+}
+.members {
+  left: 393px;
+  line-height: 96px;
+  text-transform: capitalize;
+  width: 123px;
+}
+.vectorIcon {
+  position: absolute;
+  top: 75.5px;
+  left: 0;
+  width: 1214px;
+  height: 1px;
+}
+.frameChild13,
+.frameChild14,
+.frameChild15 {
+  position: absolute;
+  top: 0;
+  left: 605.5px;
+  width: 1px;
+  height: 76px;
+}
+.frameChild14,
+.frameChild15 {
+  left: 910.5px;
+}
+.frameChild15 {
+  left: 302.5px;
+}
+.groupChild,
+.rectangleParent {
+  position: absolute;
+  width: 1214px;
+}
+.rectangleParent {
+  top: 465px;
+  left: 34px;
+  border-radius: var(--br-sm);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  height: 592px;
+}
+.groupChild {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-md);
+  background-color: var(--color-gray-100);
+  height: 282px;
+}
+.vbsDaoAims {
+  position: absolute;
+  top: 59px;
+  left: 418px;
+  letter-spacing: 0.2px;
+  line-height: 32px;
+  color: var(--color-whitesmoke);
+  display: flex;
+  align-items: center;
+  width: 755px;
+}
+.emojiGoatIcon {
+  position: absolute;
+  height: 67.35%;
+  width: 15.65%;
+  top: 11.35%;
+  right: 80.89%;
+  bottom: 21.3%;
+  left: 3.46%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  opacity: 0.75;
+}
+.vbs {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.dao {
+  margin: 0;
+}
+.vbsDao {
+  position: absolute;
+  top: 63px;
+  left: 47px;
+  font-size: var(--font-size-7xl);
+  letter-spacing: 0.2px;
+  line-height: 96px;
+  text-transform: capitalize;
+  display: flex;
+  color: var(--color-honeydew-100);
+  align-items: center;
+  width: 280px;
+  height: 155px;
+}
+.groupInner,
+.groupItem {
+  position: absolute;
+  top: 173px;
+  left: 412px;
+  border-radius: var(--br-md);
+  background-color: var(--color-pink);
+  width: 366px;
+  height: 60px;
+}
+.groupInner {
+  left: 787px;
+  background-color: var(--color-whitesmoke);
+  width: 143px;
+}
+.makeYourContribution,
+.quit {
+  position: absolute;
+  top: 174px;
+  left: 464px;
+  letter-spacing: 0.2px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  width: 278px;
+  height: 58px;
+}
+.quit {
+  top: 173px;
+  left: 830px;
+  width: 83px;
+}
+.rectangleGroup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1214px;
+  height: 282px;
+}
+.downCircleIcon,
+.groupParent {
+  position: absolute;
+  top: 186px;
+  left: 1118px;
+  width: 32px;
+  height: 32px;
+}
+.groupParent {
+  top: 151px;
+  left: 34px;
+  width: 1214px;
+  height: 282px;
+  color: var(--color-black);
+}
+.headerBg {
+  position: absolute;
+  height: calc(100% + 2px);
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: -2px;
+  left: 0;
+  background-color: var(--light-white);
+  border-bottom: 2px solid var(--light-black);
+  box-sizing: border-box;
+}
+.iconOutlinedActionMai {
+  position: absolute;
+  top: calc(50% - 12px);
+  right: 165px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  display: none;
+}
+.companyLogo,
+.logo {
+  position: absolute;
+  top: calc(50% - 16px);
+}
+.logo {
+  width: 100%;
+  left: 0;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.2px;
+  line-height: 32px;
+  text-transform: uppercase;
+  display: none;
+  font-family: var(--font-lato);
+  color: var(--main-blue);
+  text-align: left;
+  align-items: center;
+}
+.companyLogo {
+  left: 165px;
+  width: 69px;
+  height: 32px;
+}
+.itemFirst,
+.itemFour {
+  position: relative;
+  font-size: var(--font-size-sm);
+  letter-spacing: 0.2px;
+  line-height: 18px;
+  font-family: var(--font-dm-sans);
+  color: var(--color-gray-100);
+  text-align: left;
+}
+.itemFour {
+  font-size: var(--semibold-14-size);
+  font-weight: 600;
+  font-family: var(--semibold-14);
+  color: var(--light-black);
+  display: none;
+}
+.links {
+  position: absolute;
+  top: calc(50% - 9px);
+  left: calc(50% - 213.5px);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-md);
+}
+.lightLogoLeft5LinksCe {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 88px;
+}
+.address {
+  position: absolute;
+  top: 15px;
+  left: 62px;
+  font-size: var(--font-size-2xs);
+  letter-spacing: 0.2px;
+  line-height: 16px;
+  text-transform: capitalize;
+  display: flex;
+  font-family: var(--font-dm-sans);
+  color: var(--light-black);
+  text-align: left;
+  align-items: center;
+  width: 130px;
+  height: 18px;
+}
+.ellipseParent11,
+.frameChild17 {
+  position: absolute;
+  top: 20px;
+  left: 1024px;
+  width: 192px;
+  height: 48px;
+}
+.frameChild17 {
+  top: 28px;
+  left: 181px;
+  width: 36.58px;
+  height: 36.09px;
+}
+.lightLogoLeft5LinksCeParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1280px;
+  height: 88px;
+}
+.daoPageAsAMemberMember {
+  position: relative;
+  background-color: var(--light-white);
+  width: 100%;
+  height: 1080px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-100);
+  font-family: var(--font-dm-sans);
+}

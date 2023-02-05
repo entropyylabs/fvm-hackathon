@@ -1,0 +1,414 @@
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-md);
+  background-color: var(--color-gray-100);
+  width: 1214px;
+  height: 282px;
+}
+.vbsDaoAims {
+  position: absolute;
+  top: 59px;
+  left: 418px;
+  letter-spacing: 0.2px;
+  line-height: 32px;
+  color: var(--color-whitesmoke);
+  display: flex;
+  align-items: center;
+  width: 755px;
+}
+.emojiGoatIcon {
+  position: absolute;
+  height: 67.35%;
+  width: 15.65%;
+  top: 11.35%;
+  right: 80.89%;
+  bottom: 21.3%;
+  left: 3.46%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  opacity: 0.75;
+}
+.vbs {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.dao {
+  margin: 0;
+}
+.vbsDaoTxtContainer {
+  line-break: anywhere;
+  width: 100%;
+}
+.vbsDao {
+  position: absolute;
+  top: 63px;
+  left: 47px;
+  font-size: var(--font-size-7xl);
+  letter-spacing: 0.2px;
+  line-height: 96px;
+  text-transform: capitalize;
+  display: flex;
+  color: var(--color-honeydew-100);
+  align-items: center;
+  width: 280px;
+  height: 155px;
+}
+.groupInner,
+.groupItem {
+  position: absolute;
+  top: 173px;
+  left: 412px;
+  border-radius: var(--br-md);
+  background-color: var(--color-pink);
+  width: 366px;
+  height: 60px;
+}
+.groupInner {
+  left: 787px;
+  background-color: var(--color-whitesmoke);
+  width: 143px;
+}
+.makeYourContribution,
+.quit {
+  position: absolute;
+  top: 174px;
+  left: 464px;
+  letter-spacing: 0.2px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  width: 278px;
+  height: 58px;
+}
+.quit {
+  top: 173px;
+  left: 830px;
+  width: 83px;
+}
+.downCircleIcon,
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1214px;
+  height: 282px;
+}
+.downCircleIcon {
+  top: 186px;
+  left: 1118px;
+  width: 32px;
+  height: 32px;
+}
+.frameChild,
+.groupParent {
+  position: absolute;
+  top: 151px;
+  left: 34px;
+  width: 1214px;
+  height: 282px;
+}
+.frameChild {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-md);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  height: 592px;
+}
+.collectionDetails,
+.daoPerformance {
+  position: absolute;
+  letter-spacing: 0.2px;
+  line-height: 96px;
+  display: flex;
+  align-items: center;
+  width: 217px;
+  height: 58px;
+}
+.collectionDetails {
+  top: 9px;
+  left: 42px;
+  text-transform: capitalize;
+}
+.daoPerformance {
+  top: 7px;
+  left: 654px;
+  color: var(--color-gray-600);
+}
+.daoPerformance,
+.storage {
+  text-transform: capitalize;
+}
+.members,
+.storageBounties {
+  position: absolute;
+  top: 9px;
+  left: 959px;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+  display: flex;
+  color: var(--color-gray-600);
+  align-items: center;
+  width: 210px;
+  height: 58px;
+}
+.members {
+  left: 393px;
+  line-height: 96px;
+  text-transform: capitalize;
+  width: 123px;
+}
+.frameItem {
+  position: absolute;
+  top: 75.5px;
+  left: 0;
+  width: 1214px;
+  height: 1px;
+}
+.frameChild1,
+.frameChild2,
+.frameInner,
+.vectorIcon {
+  position: absolute;
+  top: 0;
+  left: 605.5px;
+  width: 1px;
+  height: 76px;
+}
+.frameChild1,
+.frameChild2,
+.vectorIcon {
+  left: 910.5px;
+}
+.frameChild1,
+.frameChild2 {
+  left: 302.5px;
+}
+.frameChild2 {
+  top: 75px;
+  left: 466.5px;
+  height: 517px;
+}
+.vbsDaoAimsContainer {
+  position: absolute;
+  top: 122px;
+  left: 42px;
+  font-size: var(--font-size-sm);
+  letter-spacing: 0.2px;
+  line-height: 24px;
+  color: var(--color-gray-100);
+  display: flex;
+  align-items: center;
+  width: 373px;
+}
+.imagesThatAre {
+  margin-bottom: 0;
+}
+.imagesThatAreNotOfVitalik {
+  margin: 0;
+  padding-left: var(--padding-md);
+}
+.referrenceImages,
+.rulesForContributionContainer {
+  position: absolute;
+  letter-spacing: 0.2px;
+  display: flex;
+  align-items: center;
+}
+.rulesForContributionContainer {
+  top: 280px;
+  left: 42px;
+  font-size: var(--font-inherit);
+  line-height: 24px;
+  font-family: var(--font-inherit);
+  width: 354px;
+}
+.referrenceImages {
+  top: 102px;
+  left: 508px;
+  font-size: var(--font-size-sm);
+  line-height: 20px;
+  text-transform: capitalize;
+  width: 181px;
+}
+.image3Icon {
+  position: absolute;
+  top: 133px;
+  left: 836px;
+  width: 178px;
+  height: 178px;
+  object-fit: cover;
+}
+.image4Icon,
+.image5Icon,
+.image8Icon {
+  position: absolute;
+  top: 334px;
+  left: 510px;
+  width: 302px;
+  height: 179px;
+  object-fit: cover;
+}
+.image5Icon,
+.image8Icon {
+  left: 836px;
+  width: 178px;
+  height: 183px;
+}
+.image5Icon {
+  top: 136px;
+  left: 510px;
+  width: 302px;
+  height: 172px;
+}
+.rectangleGroup {
+  position: absolute;
+  top: 465px;
+  left: 33px;
+  width: 1214px;
+  height: 592px;
+}
+.headerBg {
+  position: absolute;
+  height: calc(100% + 2px);
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: -2px;
+  left: 0;
+  background-color: var(--light-white);
+  border-bottom: 2px solid var(--light-black);
+  box-sizing: border-box;
+}
+.iconOutlinedActionMai {
+  position: absolute;
+  top: calc(50% - 12px);
+  right: 165px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  display: none;
+}
+.companyLogo,
+.logo {
+  position: absolute;
+  top: calc(50% - 16px);
+}
+.logo {
+  width: 100%;
+  left: 0;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.2px;
+  line-height: 32px;
+  text-transform: uppercase;
+  display: none;
+  font-family: var(--font-lato);
+  color: var(--main-blue);
+  text-align: left;
+  align-items: center;
+}
+.companyLogo {
+  left: 165px;
+  width: 69px;
+  height: 32px;
+}
+.itemFirst,
+.itemFour {
+  position: relative;
+  font-size: var(--font-size-sm);
+  letter-spacing: 0.2px;
+  line-height: 18px;
+  font-family: var(--font-dm-sans);
+  color: var(--color-gray-100);
+  text-align: left;
+}
+.itemFour {
+  font-size: var(--semibold-14-size);
+  font-weight: 600;
+  font-family: var(--semibold-14);
+  color: var(--light-black);
+  display: none;
+}
+.links {
+  position: absolute;
+  top: calc(50% - 9px);
+  left: calc(50% - 213.5px);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-md);
+}
+.lightLogoLeft5LinksCe {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 88px;
+}
+.ellipseIcon,
+.frameIcon {
+  position: absolute;
+  top: -1px;
+  left: 0;
+  width: 48px;
+  height: 50px;
+}
+.frameIcon {
+  top: 0;
+  height: 48px;
+  overflow: hidden;
+}
+.address {
+  position: absolute;
+  top: 15px;
+  left: 62px;
+  font-size: var(--font-size-2xs);
+  letter-spacing: 0.2px;
+  line-height: 16px;
+  text-transform: capitalize;
+  display: flex;
+  font-family: var(--font-dm-sans);
+  color: var(--light-black);
+  text-align: left;
+  align-items: center;
+  width: 130px;
+  height: 18px;
+}
+.ellipseParent,
+.frameChild3 {
+  position: absolute;
+  top: 20px;
+  left: 1024px;
+  width: 192px;
+  height: 48px;
+}
+.frameChild3 {
+  top: 28px;
+  left: 181px;
+  width: 36.58px;
+  height: 36.09px;
+}
+.lightLogoLeft5LinksCeParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1280px;
+  height: 88px;
+}
+.daoPageAsAMemberColle {
+  position: relative;
+  background-color: var(--light-white);
+  width: 100%;
+  height: 1080px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-dm-sans);
+}
