@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-dm-sans: "DM Sans";
+  --semibold-14: Mulish;
+  --font-lato: Lato;
+  --font-inherit: inherit;
+  --sp-paragraph-default: Inter;
+
+  /* font sizes */
+  --font-size-4xs: 13px;
+  --semibold-14-size: 14px;
+  --font-size-2xs: 16px;
+  --sp-paragraph-default-size: 18px;
+  --font-size-sm: 20px;
+  --font-size-base: 24px;
+  --font-size-lg: 28px;
+  --font-size-xl: 32px;
+  --font-size-2xl: 36px;
+  --font-size-3xl: 40px;
+  --font-size-4xl: 48px;
+  --font-size-5xl: 52px;
+  --font-size-6xl: 64px;
+  --font-size-7xl: 96px;
+
+  /* Colors */
+  --light-white: #fff;
+  --light-black: #373f41;
+  --black: #2d3436;
+  --color-gray-100: #262626;
+  --color-gray-200: rgba(0, 0, 0, 0.4);
+  --color-gray-300: rgba(38, 38, 38, 0.6);
+  --color-gray-400: rgba(38, 38, 38, 0.8);
+  --color-gray-500: rgba(0, 0, 0, 0.6);
+  --color-gray-600: rgba(38, 38, 38, 0.4);
+  --main-blue: #3c64b1;
+  --color-black: #000;
+  --color-pink: #fec7c7;
+  --color-honeydew-100: #d8fee4;
+  --color-whitesmoke: #f5f5f5;
+  --color-plum: #cbb3f2;
+  --light-divider: #e2e5e6;
+  --color-silver: #c8c8c8;
+
+  /* Gaps */
+  --gap-md: 32px;
+
+  /* Paddings */
+  --padding-md: 24px;
+
+  /* border radiuses */
+  --br-sm: 8px;
+  --br-md: 10px;
+}
