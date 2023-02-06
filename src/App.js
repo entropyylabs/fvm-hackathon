@@ -118,7 +118,10 @@ function App() {
 
       <Route path="/confirm-dao" element={<CreateADAO />} />
 
-      <Route path="/show-the-output" element={<SHOWTHEOUTPUT />} />
+      <Route
+        path="/output-QmYT1RuLmhqh6xdXLG62kLjn2G513nHiWmuy6j6vm5QT5H"
+        element={<SHOWTHEOUTPUT />}
+      />
 
       <Route path="/home" element={<HomeExplore />} />
 
