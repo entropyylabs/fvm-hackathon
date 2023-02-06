@@ -4,6 +4,15 @@
   top: 415px;
   left: 64px;
 }
+
+.generateButton {
+  position: absolute;
+  top: 495px;
+  right: 60px;
+  z-index: 1000;
+  background-color: #d8fee4;
+}
+
 .enterPromptHere {
   position: absolute;
   top: 371px;
@@ -30,13 +39,20 @@
   box-sizing: border-box;
 }
 .showTheOutputItem {
-  top: 530px;
-  left: 332px;
+  top: 570px;
+  left: 372px;
   border-radius: 2px;
-  border: 1px solid var(--color-black);
   width: 541px;
   height: 387px;
 }
+
+.outputImage {
+  position: absolute;
+  top: 570px;
+  left: 392px;
+  height: 400px;
+}
+
 .headerBg {
   height: calc(100% + 2px);
   width: 100%;

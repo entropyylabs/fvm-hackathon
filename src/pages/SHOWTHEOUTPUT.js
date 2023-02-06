@@ -1,9 +1,28 @@
-import { Input } from "@chakra-ui/react";
+import { Input, Button } from "@chakra-ui/react";
 import styles from "./SHOWTHEOUTPUT.module.css";
+import { useState } from "react";
 
 const SHOWTHEOUTPUT = () => {
+  const [loading, setLoading] = useState(false);
+  const [show, setShow] = useState(false);
+
+  const generate = () => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+      setShow(true);
+    }, 5000);
+  };
+
   return (
     <div className={styles.showTheOutput}>
+      <img
+        src="../vitalik.png"
+        className={styles.outputImage}
+        style={{ display: show ? "block" : "none" }}
+        alt=""
+        srcset=""
+      />
       <Input
         className={styles.inputoutline}
         variant="outline"
@@ -12,7 +31,17 @@ const SHOWTHEOUTPUT = () => {
         size="lg"
         placeholder="Input"
         w="1151px"
+        style={{ zIndex: 100 }}
       />
+      <Button
+        isLoading={loading}
+        loadingText="Generating"
+        textColor="#262626"
+        onClick={() => generate()}
+        className={styles.generateButton}
+      >
+        Generate
+      </Button>
       <i className={styles.enterPromptHere}>Enter prompt here</i>
       <div className={styles.showTheOutputChild} />
       <div className={styles.showTheOutputItem} />
