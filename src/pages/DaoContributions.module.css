@@ -230,6 +230,7 @@
   left: -1px;
   width: 1214px;
   height: 1px;
+  border-top: 1px solid black;
 }
 .frameChild16,
 .frameChild17,
@@ -240,6 +241,7 @@
   left: 604.5px;
   width: 1px;
   height: 76px;
+  border-left: 1px solid black;
 }
 .frameChild17,
 .frameChild18,

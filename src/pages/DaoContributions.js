@@ -1,5 +1,5 @@
 import { Progress } from "@chakra-ui/react";
-import styles from "./ContributionPageDupes1.module.css";
+import styles from "./DaoContributions.module.css";
 
 const ContributionPageDupes1 = () => {
   return (
@@ -78,10 +78,10 @@ const ContributionPageDupes1 = () => {
           </span>
         </b>
         <b className={styles.members}>Members</b>
-        <img className={styles.vectorIcon} alt="" src="../vector-3.svg" />
-        <img className={styles.frameChild16} alt="" src="../vector-10.svg" />
-        <img className={styles.frameChild17} alt="" src="../vector-10.svg" />
-        <img className={styles.frameChild18} alt="" src="../vector-10.svg" />
+        <div className={styles.vectorIcon}></div>
+        <div className={styles.frameChild16}></div>
+        <div className={styles.frameChild17}></div>
+        <div className={styles.frameChild18}></div>
         <img className={styles.image4Icon} alt="" src="../image-4@2x.png" />
         <img className={styles.image5Icon} alt="" src="../image-5@2x.png" />
         <img className={styles.image6Icon} alt="" src="../image-6@2x.png" />

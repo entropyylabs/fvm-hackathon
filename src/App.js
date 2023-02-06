@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import ContributionPageDupes from "./pages/ContributionPageDupes";
 import ContributionPageOwner from "./pages/ContributionPageOwner";
-import ContributionPageDupes1 from "./pages/ContributionPageDupes1";
+import ContributionPageDupes1 from "./pages/DaoContributions";
 import CreateADAO from "./pages/CreateADAO";
 import CreateADAO1 from "./pages/CreateADAO1";
 import SHOWTHEOUTPUT from "./pages/SHOWTHEOUTPUT";
@@ -112,10 +112,7 @@ function App() {
         element={<ContributionPageOwner />}
       />
 
-      <Route
-        path="/contribution-page-dupes"
-        element={<ContributionPageDupes1 />}
-      />
+      <Route path="/dao-contributions" element={<ContributionPageDupes1 />} />
 
       <Route path="/create-a-dao" element={<CreateADAO />} />
 
