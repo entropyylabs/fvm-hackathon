@@ -1,4 +1,5 @@
 import styles from "./DAOPageAsAMemberCOLLE.module.css";
+import { Link } from "react-router-dom";
 
 const DAOPageAsAMemberCOLLE = () => {
   return (
@@ -36,14 +37,22 @@ const DAOPageAsAMemberCOLLE = () => {
       </div>
       <div className={styles.rectangleGroup}>
         <div className={styles.frameChild} />
-        <b className={styles.collectionDetails}>Collection Details</b>
-        <b className={styles.daoPerformance}>DAO Performance</b>
+        <b className={styles.collectionDetails}>
+          <Link to="/dao-page"> Collection Details</Link>
+        </b>
+        <b className={styles.daoPerformance}>
+          <Link to="/dao-contributions"> DAO Performance</Link>
+        </b>
         <b className={styles.storageBounties}>
           <span className={styles.vbsDaoTxtContainer}>
-            <span className={styles.storage}>{`Storage `}</span>bounties
+            <Link to="/storage-bounties">
+              <span className={styles.storage}>{`Storage `}</span>bounties
+            </Link>
           </span>
         </b>
-        <b className={styles.members}>Members</b>
+        <b className={styles.members}>
+          <Link to="/dao-members">Members</Link>
+        </b>
         <div
           className={styles.contributionPageSucessItem}
           style={{ height: "2px" }}

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styles from "./DAOPageAsAMemberMember.module.css";
 
 const DAOPageAsAMemberMember = () => {
@@ -103,14 +104,22 @@ const DAOPageAsAMemberMember = () => {
             <img className={styles.frameIcon} alt="" src="../frame21.svg" />
           </div>
         </div>
-        <b className={styles.collectionDetails}>Collection Details</b>
-        <b className={styles.daoPerformance}>DAO Performance</b>
+        <b className={styles.collectionDetails}>
+          <Link to="/dao-page"> Collection Details</Link>
+        </b>
+        <b className={styles.daoPerformance}>
+          <Link to="/dao-contributions"> DAO Performance</Link>
+        </b>
         <b className={styles.storageBounties}>
-          <span className={styles.storageBountiesTxtContainer}>
-            <span className={styles.storage}>{`Storage `}</span>bounties
+          <span className={styles.vbsDaoTxtContainer}>
+            <Link to="/storage-bounties">
+              <span className={styles.storage}>{`Storage `}</span>bounties
+            </Link>
           </span>
         </b>
-        <b className={styles.members}>Members</b>
+        <b className={styles.members}>
+          <Link to="/dao-members">Members</Link>
+        </b>
         <div className={styles.vectorIcon}></div>
         <div className={styles.frameChild13}></div>
         <div className={styles.frameChild14}></div>

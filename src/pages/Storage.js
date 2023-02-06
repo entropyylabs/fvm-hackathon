@@ -1,6 +1,7 @@
 import { Button } from "@chakra-ui/react";
 import { ArrowForwardIcon } from "@chakra-ui/icons";
 import styles from "./Storage.module.css";
+import { Link } from "react-router-dom";
 
 const ContributionPageDupes = () => {
   return (
@@ -149,14 +150,22 @@ const ContributionPageDupes = () => {
             Store files on Filecoin network for storage bounties
           </div>
           <b className={styles.contribution05}>1 contribution : 0.5 FIL</b>
-          <b className={styles.collectionDetails}>Collection Details</b>
-          <b className={styles.daoPerformance}>DAO Performance</b>
+          <b className={styles.collectionDetails}>
+            <Link to="/dao-page"> Collection Details</Link>
+          </b>
+          <b className={styles.daoPerformance}>
+            <Link to="/dao-contributions"> DAO Performance</Link>
+          </b>
           <b className={styles.storageBounties}>
-            <span className={styles.storageBountiesTxtContainer}>
-              <span className={styles.storage}>{`Storage `}</span>bounties
+            <span className={styles.vbsDaoTxtContainer}>
+              <Link to="/storage-bounties">
+                <span className={styles.storage}>{`Storage `}</span>bounties
+              </Link>
             </span>
           </b>
-          <b className={styles.members}>Members</b>{" "}
+          <b className={styles.members}>
+            <Link to="/dao-members">Members</Link>
+          </b>
           <div className={styles.vectorIcon}></div>
           <div className={styles.frameChild16}></div>
           <div className={styles.frameChild17}></div>

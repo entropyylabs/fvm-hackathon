@@ -1,5 +1,5 @@
 import styles from "./HomeExplore.module.css";
-
+import { Link } from "react-router-dom";
 import { useAccount, useConnect, useEnsName } from "wagmi";
 import { MetaMaskConnector } from "wagmi/connectors/metaMask";
 
@@ -24,7 +24,9 @@ const HomeExplore = () => {
           </span>
         </p>
         <button className={styles.frameItem} />
-        <h6 className={styles.requestToJoin}>Request to join</h6>
+        <Link to="/dao-page">
+          <h6 className={styles.requestToJoin}>Request to join</h6>
+        </Link>
         <img
           className={styles.emojiGoatIcon}
           alt=""
