@@ -114,7 +114,7 @@ const ContributionPageDupes2 = () => {
         <div className={styles.ellipseParent}>
           <img className={styles.ellipseIcon} alt="" src="../ellipse-5.svg" />
           <img className={styles.frameIcon} alt="" src="../frame27.svg" />
-          <i className={styles.address}>Address</i>
+          <i className={styles.address}>0xCafa...1fD0</i>
         </div>
         <img className={styles.frameChild16} alt="" src="../frame-449.svg" />
       </nav>

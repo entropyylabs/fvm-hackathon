@@ -36,7 +36,7 @@ const SHOWTHEOUTPUT = () => {
         <div className={styles.ellipseParent}>
           <img className={styles.frameChild} alt="" src="../ellipse-5.svg" />
           <img className={styles.frameIcon} alt="" src="../frame5.svg" />
-          <i className={styles.address}>Address</i>
+          <i className={styles.address}>0xCafa...1fD0</i>
         </div>
         <img className={styles.frameItem} alt="" src="../frame-443.svg" />
       </nav>

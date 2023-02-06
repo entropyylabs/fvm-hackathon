@@ -71,7 +71,7 @@ const ContributionPageSucess1 = () => {
         <div className={styles.ellipseParent}>
           <img className={styles.frameItem} alt="" src="../ellipse-5.svg" />
           <img className={styles.frameIcon} alt="" src="../frame25.svg" />
-          <i className={styles.address}>Address</i>
+          <i className={styles.address}>0xCafa...1fD0</i>
         </div>
         <img className={styles.frameInner} alt="" src="../frame-449.svg" />
       </nav>

@@ -169,7 +169,7 @@ const DAOPageAsAMemberMember = () => {
         <div className={styles.ellipseParent11}>
           <img className={styles.frameItem} alt="" src="../ellipse-5.svg" />
           <img className={styles.frameIcon} alt="" src="../frame22.svg" />
-          <i className={styles.address}>Address</i>
+          <i className={styles.address}>0xCafa...1fD0</i>
         </div>
         <img className={styles.frameChild17} alt="" src="../frame-442.svg" />
       </nav>
