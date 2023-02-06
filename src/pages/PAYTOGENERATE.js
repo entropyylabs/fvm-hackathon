@@ -1,5 +1,5 @@
 import { Button } from "@chakra-ui/react";
-import { ArrowForwardIcon } from "@chakra-ui/icons";
+import { UnlockIcon } from "@chakra-ui/icons";
 import styles from "./PAYTOGENERATE.module.css";
 
 const PAYTOGENERATE = () => {
@@ -25,10 +25,10 @@ const PAYTOGENERATE = () => {
         className={styles.buttonsolidTextAndIcon}
         variant="solid"
         w="391px"
-        colorScheme="teal"
-        rightIcon={<ArrowForwardIcon />}
+        style={{ backgroundColor: "#D8FEE4" }}
+        leftIcon={<UnlockIcon />}
       >
-        Button
+        Confirm and pay (0.3 tFIL)
       </Button>
       <div className={styles.image2Parent}>
         <img className={styles.image2Icon} alt="" src="../image-22@2x.png" />
