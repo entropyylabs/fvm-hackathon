@@ -2,8 +2,17 @@ import { Button } from "@chakra-ui/react";
 import { UnlockIcon } from "@chakra-ui/icons";
 import styles from "./PAYTOGENERATE.module.css";
 import { Link } from "react-router-dom";
+import { usePrepareSendTransaction, useSendTransaction } from "wagmi";
+import { utils } from "ethers";
 
 const PAYTOGENERATE = () => {
+  const { config } = usePrepareSendTransaction({
+    request: {
+      to: "0x37fcE72a7397E5FDdEe880F9AAafC26d0F751782",
+      value: utils.parseEther("0.3"),
+    },
+  });
+  const { sendTransaction } = useSendTransaction(config);
   return (
     <div className={styles.payToGenerate}>
       <div className={styles.payToGenerateChild} />
@@ -22,17 +31,17 @@ const PAYTOGENERATE = () => {
         </span>
       </div>
       <i className={styles.doYouWant}>Do you want to use this model?</i>
-      <Link to="/output-QmYT1RuLmhqh6xdXLG62kLjn2G513nHiWmuy6j6vm5QT5H">
-        <Button
-          className={styles.buttonsolidTextAndIcon}
-          variant="solid"
-          w="391px"
-          style={{ backgroundColor: "#D8FEE4" }}
-          leftIcon={<UnlockIcon />}
-        >
-          Confirm and pay (0.3 tFIL)
-        </Button>
-      </Link>
+
+      <Button
+        className={styles.buttonsolidTextAndIcon}
+        variant="solid"
+        w="391px"
+        style={{ backgroundColor: "#D8FEE4" }}
+        leftIcon={<UnlockIcon />}
+        onClick={sendTransaction}
+      >
+        Confirm and pay (0.3 tFIL)
+      </Button>
 
       <div className={styles.image2Parent}>
         <img className={styles.image2Icon} alt="" src="../image-22@2x.png" />

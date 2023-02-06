@@ -2,8 +2,17 @@ import { Progress } from "@chakra-ui/react";
 import styles from "./DaoContributions.module.css";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { useSignMessage } from "wagmi";
+import { verifyMessage } from "ethers/lib/utils";
 
 const ContributionPageDupes1 = () => {
+  const { data, error, isLoading, signMessage } = useSignMessage({
+    onSuccess(data, variables) {
+      // Verify signature when sign message succeeds
+      const address = verifyMessage(variables.message, data);
+      recoveredAddress.current = address;
+    },
+  });
   const [flag, setFlag] = useState(false);
   return (
     <div className={styles.contributionPageDupes}>
@@ -70,7 +79,13 @@ const ContributionPageDupes1 = () => {
             className={styles.flagIcon3}
             alt=""
             style={{ zIndex: 1000 }}
-            onClick={() => setFlag(!flag)}
+            onClick={() => {
+              setFlag(!flag);
+              signMessage({
+                message:
+                  "Flagging image uploaded by John Doe, cid:QmYT1RuLmhqh6xdXLG62kLjn2G513nHiWmuy6j6vm5QT5H",
+              });
+            }}
             src={!flag ? "../flag.svg" : "../flag15.svg"}
           />
         </div>
