@@ -101,7 +101,7 @@ const CreateADAO = () => {
           <div className={styles.links}>
             <div className={styles.itemFirst}>EXPLORE</div>
             <div className={styles.itemFirst}>MY DAOs</div>
-            <div className={styles.itemThree}>MY CONTRIBUTIONS</div>
+            <div className={styles.itemFirst}>MY CONTRIBUTIONS</div>
             <div className={styles.itemFour}>Item four</div>
             <div className={styles.itemFour}>Item five</div>
           </div>

@@ -29,10 +29,8 @@ const SHOWTHEOUTPUT = () => {
           </div>
           <div className={styles.links}>
             <div className={styles.itemFirst}>EXPLORE</div>
-            <div className={styles.itemTwo}>MY DAOs</div>
+            <div className={styles.itemFirst}>MY DAOs</div>
             <div className={styles.itemFirst}>CONTRIBUTE</div>
-            <div className={styles.itemFour}>Item four</div>
-            <div className={styles.itemFour}>Item five</div>
           </div>
         </div>
         <div className={styles.ellipseParent}>

@@ -17,6 +17,8 @@ import ContributionPageSucess from "./pages/Contribute";
 import ContributionPageSucess1 from "./pages/ContributionPageSucess1";
 import PAYTOGENERATE from "./pages/PAYTOGENERATE";
 import ContributionPageDupes2 from "./pages/ContributionPageDupes2";
+import Storage from "./pages/Storage";
+import Success from "./pages/Success";
 import { useEffect } from "react";
 
 function App() {
@@ -105,12 +107,14 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/storage-bounties" element={<ContributionPageDupes />} />
+      <Route path="/storage-bounties" element={<Storage />} />
 
       <Route
         path="/contribution-page-owner"
         element={<ContributionPageOwner />}
       />
+
+      <Route path="/success" element={<Success />} />
 
       <Route path="/dao-contributions" element={<ContributionPageDupes1 />} />
 
