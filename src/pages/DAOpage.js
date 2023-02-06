@@ -25,7 +25,7 @@ const DAOPageAsAMemberCOLLE = () => {
           <div className={styles.groupItem} />
           <div className={styles.groupInner} />
           <div className={styles.makeYourContribution}>
-            Make your contribution
+            <Link to="/contribute">Make your contribution</Link>
           </div>
           <div className={styles.quit}>Quit</div>
         </div>

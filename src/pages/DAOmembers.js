@@ -12,17 +12,17 @@ const DAOPageAsAMemberMember = () => {
           <div className={styles.ellipseParent}>
             <img className={styles.frameItem} alt="" src="../ellipse-5.svg" />
             <img className={styles.frameIcon} alt="" src="../frame7.svg" />
-            <b className={styles.johnDoe}>John Doe</b>
+            <b className={styles.johnDoe}>Dorthy </b>
             <i className={styles.owner}>{`Owner  `}</i>
           </div>
           <div className={styles.ellipseGroup}>
             <img className={styles.frameItem} alt="" src="../ellipse-5.svg" />
-            <b className={styles.johnDoe1}>John Doe</b>
+            <b className={styles.johnDoe1}>Sawyer </b>
             <i className={styles.checker}>{`Owner `}</i>
             <img className={styles.frameIcon1} alt="" src="../frame8.svg" />
           </div>
           <div className={styles.johnDoeParent}>
-            <b className={styles.johnDoe1}>John Doe</b>
+            <b className={styles.johnDoe1}>Purdie Leyton</b>
             <i className={styles.checker}>{`Checker `}</i>
             <img className={styles.frameItem} alt="" src="../ellipse-5.svg" />
             <img className={styles.frameIcon2} alt="" src="../frame9.svg" />
@@ -30,13 +30,13 @@ const DAOPageAsAMemberMember = () => {
           <div className={styles.ellipseContainer}>
             <img className={styles.frameItem} alt="" src="../ellipse-5.svg" />
             <img className={styles.frameIcon} alt="" src="../frame10.svg" />
-            <b className={styles.johnDoe1}>John Doe</b>
+            <b className={styles.johnDoe1}>Jemmy Randell</b>
             <i className={styles.checker}>Owner</i>
           </div>
           <div className={styles.frameDiv}>
             <img className={styles.frameItem} alt="" src="../ellipse-5.svg" />
             <img className={styles.frameIcon} alt="" src="../frame11.svg" />
-            <b className={styles.johnDoe1}>John Doe</b>
+            <b className={styles.johnDoe1}>Julia Taylor</b>
             <i className={styles.checker}>Owner</i>
           </div>
         </div>
@@ -44,63 +44,63 @@ const DAOPageAsAMemberMember = () => {
           <div className={styles.ellipseParent}>
             <img className={styles.frameItem} alt="" src="../ellipse-5.svg" />
             <img className={styles.frameIcon} alt="" src="../frame12.svg" />
-            <b className={styles.johnDoe1}>John Doe</b>
-            <i className={styles.checker}>contributions : 60k</i>
+            <b className={styles.johnDoe1}>Sophy Kendrick</b>
+            <i className={styles.checker}>contributions : 6</i>
           </div>
           <div className={styles.ellipseParent2}>
             <img className={styles.frameItem} alt="" src="../ellipse-5.svg" />
-            <b className={styles.johnDoe1}>John Doe</b>
-            <i className={styles.checker}>Contributions : 40k</i>
+            <b className={styles.johnDoe1}>Phillis </b>
+            <i className={styles.checker}>Contributions : 4</i>
             <img className={styles.frameIcon} alt="" src="../frame13.svg" />
           </div>
           <div className={styles.johnDoeParent}>
             <img className={styles.frameItem} alt="" src="../ellipse-5.svg" />
             <b className={styles.johnDoe1}>John Doe</b>
-            <i className={styles.checker}>Contributions : 40k</i>
+            <i className={styles.checker}>Contributions : 4</i>
             <img className={styles.frameIcon} alt="" src="../frame14.svg" />
           </div>
           <div className={styles.ellipseContainer}>
             <img className={styles.frameItem} alt="" src="../ellipse-5.svg" />
-            <b className={styles.johnDoe1}>John Doe</b>
-            <i className={styles.checker}>Contributions : 40k</i>
+            <b className={styles.johnDoe1}>Tammy </b>
+            <i className={styles.checker}>Contributions : 2</i>
             <img className={styles.frameIcon} alt="" src="../frame15.svg" />
           </div>
           <div className={styles.frameDiv}>
             <img className={styles.frameItem} alt="" src="../ellipse-5.svg" />
-            <b className={styles.johnDoe1}>John Doe</b>
-            <i className={styles.checker}>Contributions : 40k</i>
+            <b className={styles.johnDoe1}>Grace Hibbert</b>
+            <i className={styles.checker}>Contributions : 1</i>
             <img className={styles.frameIcon} alt="" src="../frame16.svg" />
           </div>
         </div>
         <div className={styles.frameContainer}>
           <div className={styles.ellipseParent}>
             <img className={styles.frameItem} alt="" src="../ellipse-5.svg" />
-            <b className={styles.johnDoe1}>John Doe</b>
-            <i className={styles.checker}>Contributions : 40k</i>
+            <b className={styles.johnDoe1}>Ali</b>
+            <i className={styles.checker}>Contributions : 2</i>
             <img className={styles.frameIcon} alt="" src="../frame17.svg" />
           </div>
           <div className={styles.ellipseParent2}>
             <img className={styles.frameItem} alt="" src="../ellipse-5.svg" />
-            <b className={styles.johnDoe1}>John Doe</b>
-            <i className={styles.checker}>Contributions : 40k</i>
+            <b className={styles.johnDoe1}>Craig</b>
+            <i className={styles.checker}>Contributions : 1</i>
             <img className={styles.frameIcon} alt="" src="../frame18.svg" />
           </div>
           <div className={styles.johnDoeParent}>
             <img className={styles.frameItem} alt="" src="../ellipse-5.svg" />
-            <b className={styles.johnDoe1}>John Doe</b>
-            <i className={styles.checker}>Contributions : 40k</i>
+            <b className={styles.johnDoe1}>Alex</b>
+            <i className={styles.checker}>Contributions : 3</i>
             <img className={styles.frameIcon} alt="" src="../frame19.svg" />
           </div>
           <div className={styles.ellipseContainer}>
             <img className={styles.frameItem} alt="" src="../ellipse-5.svg" />
-            <b className={styles.johnDoe1}>John Doe</b>
-            <i className={styles.checker}>Contributions : 40k</i>
+            <b className={styles.johnDoe1}>Danny</b>
+            <i className={styles.checker}>Contributions : 4</i>
             <img className={styles.frameIcon} alt="" src="../frame20.svg" />
           </div>
           <div className={styles.frameDiv}>
             <img className={styles.frameItem} alt="" src="../ellipse-5.svg" />
-            <b className={styles.johnDoe1}>John Doe</b>
-            <i className={styles.checker}>Contributions : 40k</i>
+            <b className={styles.johnDoe1}>Sergrey</b>
+            <i className={styles.checker}>Contributions : 1</i>
             <img className={styles.frameIcon} alt="" src="../frame21.svg" />
           </div>
         </div>
