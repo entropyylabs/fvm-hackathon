@@ -1,7 +1,9 @@
 import { Progress } from "@chakra-ui/react";
 import styles from "./DaoContributions.module.css";
+import { useState } from "react";
 
 const ContributionPageDupes1 = () => {
+  const [flag, setFlag] = useState(false);
   return (
     <div className={styles.contributionPageDupes}>
       <div className={styles.frameParent}>
@@ -27,7 +29,7 @@ const ContributionPageDupes1 = () => {
         </div>
         <div className={styles.frameDiv}>
           <div className={styles.rectangleDiv} />
-          <img className={styles.flagIcon3} alt="" src="../flag15.svg" />
+          <img className={styles.flagIcon3} alt="" src="../flag.svg" />
           <div className={styles.byJohnDoe1}>by John Doe</div>
           <div className={styles.frameChild} />
           <img className={styles.image3Icon} alt="" src="../image-3@2x.png" />
@@ -63,7 +65,13 @@ const ContributionPageDupes1 = () => {
           <div className={styles.byJohnDoe1}>by John Doe</div>
           <img className={styles.image10Icon} alt="" src="../image-10@2x.png" />
           <img className={styles.image11Icon} alt="" src="../image-11@2x.png" />
-          <img className={styles.flagIcon3} alt="" src="../flag15.svg" />
+          <img
+            className={styles.flagIcon3}
+            alt=""
+            style={{ zIndex: 1000 }}
+            onClick={() => setFlag(!flag)}
+            src={!flag ? "../flag.svg" : "../flag15.svg"}
+          />
         </div>
         <div className={styles.frameChild15} />
         <div className={styles.nowYouCan}>
