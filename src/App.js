@@ -4,7 +4,7 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import ContributionPageDupes from "./pages/ContributionPageDupes";
+import ContributionPageDupes from "./pages/StorageBounties";
 import ContributionPageOwner from "./pages/ContributionPageOwner";
 import ContributionPageDupes1 from "./pages/DaoContributions";
 import CreateADAO from "./pages/CreateADAO";
@@ -105,7 +105,7 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<ContributionPageDupes />} />
+      <Route path="/storage-bounties" element={<ContributionPageDupes />} />
 
       <Route
         path="/contribution-page-owner"

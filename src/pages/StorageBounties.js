@@ -1,5 +1,5 @@
 import { Progress } from "@chakra-ui/react";
-import styles from "./ContributionPageDupes.module.css";
+import styles from "./StorageBounties.module.css";
 
 const ContributionPageDupes = () => {
   return (
@@ -14,10 +14,10 @@ const ContributionPageDupes = () => {
           </span>
         </b>
         <b className={styles.members}>Members</b>
-        <img className={styles.frameItem} alt="" src="../vector-3.svg" />
-        <img className={styles.frameInner} alt="" src="../vector-10.svg" />
-        <img className={styles.vectorIcon} alt="" src="../vector-10.svg" />
-        <img className={styles.frameChild1} alt="" src="../vector-10.svg" />
+        <div className={styles.frameItem}></div>
+        <div className={styles.frameInner}></div>
+        <div className={styles.vectorIcon}></div>
+        <div className={styles.frameChild1}></div>
       </div>
       <div className={styles.contributionPageDupesChild} />
       <div className={styles.contributions}>{`Contributions `}</div>

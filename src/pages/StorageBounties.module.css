@@ -62,6 +62,7 @@
   left: -1px;
   width: 1214px;
   height: 1px;
+  border-top: 1px solid black;
 }
 .frameChild1,
 .frameInner,
@@ -72,6 +73,7 @@
   left: 604.5px;
   width: 1px;
   height: 76px;
+  border-left: 1px solid black;
 }
 .frameChild1,
 .rectangleParent,
