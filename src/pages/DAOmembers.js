@@ -111,10 +111,10 @@ const DAOPageAsAMemberMember = () => {
           </span>
         </b>
         <b className={styles.members}>Members</b>
-        <img className={styles.vectorIcon} alt="" src="../vector-3.svg" />
-        <img className={styles.frameChild13} alt="" src="../vector-10.svg" />
-        <img className={styles.frameChild14} alt="" src="../vector-10.svg" />
-        <img className={styles.frameChild15} alt="" src="../vector-10.svg" />
+        <div className={styles.vectorIcon}></div>
+        <div className={styles.frameChild13}></div>
+        <div className={styles.frameChild14}></div>
+        <div className={styles.frameChild15}></div>
       </div>
       <div className={styles.groupParent}>
         <div className={styles.rectangleGroup}>

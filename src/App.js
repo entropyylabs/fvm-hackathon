@@ -11,7 +11,7 @@ import CreateADAO from "./pages/CreateADAO";
 import CreateADAO1 from "./pages/CreateADAO1";
 import SHOWTHEOUTPUT from "./pages/SHOWTHEOUTPUT";
 import HomeExplore from "./pages/HomeExplore";
-import DAOPageAsAMemberMember from "./pages/DAOPageAsAMemberMember";
+import DAOPageAsAMemberMember from "./pages/DAOmembers";
 import DAOPageAsAMemberCOLLE from "./pages/DAOpage";
 import ContributionPageSucess from "./pages/Contribute";
 import ContributionPageSucess1 from "./pages/ContributionPageSucess1";
@@ -125,10 +125,7 @@ function App() {
 
       <Route path="/home" element={<HomeExplore />} />
 
-      <Route
-        path="/dao-page-as-a-member-members"
-        element={<DAOPageAsAMemberMember />}
-      />
+      <Route path="/dao-members" element={<DAOPageAsAMemberMember />} />
 
       <Route path="/dao-page" element={<DAOPageAsAMemberCOLLE />} />
 
