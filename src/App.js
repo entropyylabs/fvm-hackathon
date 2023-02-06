@@ -12,7 +12,7 @@ import CreateADAO1 from "./pages/CreateADAO1";
 import SHOWTHEOUTPUT from "./pages/SHOWTHEOUTPUT";
 import HomeExplore from "./pages/HomeExplore";
 import DAOPageAsAMemberMember from "./pages/DAOPageAsAMemberMember";
-import DAOPageAsAMemberCOLLE from "./pages/DAOPageAsAMemberCOLLE";
+import DAOPageAsAMemberCOLLE from "./pages/DAOpage";
 import ContributionPageSucess from "./pages/Contribute";
 import ContributionPageSucess1 from "./pages/ContributionPageSucess1";
 import PAYTOGENERATE from "./pages/PAYTOGENERATE";
@@ -130,10 +130,7 @@ function App() {
         element={<DAOPageAsAMemberMember />}
       />
 
-      <Route
-        path="/dao-page-as-a-member-collection-details"
-        element={<DAOPageAsAMemberCOLLE />}
-      />
+      <Route path="/dao-page" element={<DAOPageAsAMemberCOLLE />} />
 
       <Route path="/contribute" element={<ContributionPageSucess />} />
 

@@ -44,10 +44,13 @@ const DAOPageAsAMemberCOLLE = () => {
           </span>
         </b>
         <b className={styles.members}>Members</b>
-        <img className={styles.frameItem} alt="" src="../vector-3.svg" />
-        <img className={styles.frameInner} alt="" src="../vector-10.svg" />
-        <img className={styles.vectorIcon} alt="" src="../vector-10.svg" />
-        <img className={styles.frameChild1} alt="" src="../vector-10.svg" />
+        <div
+          className={styles.contributionPageSucessItem}
+          style={{ height: "2px" }}
+        ></div>
+        <div className={styles.frameInner} alt="" src="../vector-10.svg"></div>
+        <div className={styles.vectorIcon} alt="" src="../vector-10.svg"></div>
+        <div className={styles.frameChild1} alt="" src="../vector-10.svg"></div>
         <img className={styles.frameChild2} alt="" src="../vector-8.svg" />
         <div className={styles.vbsDaoAimsContainer}>
           <span className={styles.vbsDaoTxtContainer}>

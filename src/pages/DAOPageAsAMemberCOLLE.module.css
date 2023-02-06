@@ -177,6 +177,7 @@
   left: 605.5px;
   width: 1px;
   height: 76px;
+  border-left: 1px solid black;
 }
 .frameChild1,
 .frameChild2,
@@ -411,4 +412,14 @@
   font-size: var(--font-size-base);
   color: var(--color-black);
   font-family: var(--font-dm-sans);
+}
+
+.contributionPageSucessItem {
+  position: absolute;
+  top: 75px;
+  width: 1214px;
+  height: 1px;
+  height: 2px;
+  width: 1214px;
+  border-top: 1px solid black;
 }
