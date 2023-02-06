@@ -114,9 +114,9 @@ function App() {
 
       <Route path="/dao-contributions" element={<ContributionPageDupes1 />} />
 
-      <Route path="/create-a-dao" element={<CreateADAO />} />
+      <Route path="/create-dao" element={<CreateADAO1 />} />
 
-      <Route path="/create-a-dao1" element={<CreateADAO1 />} />
+      <Route path="/confirm-dao" element={<CreateADAO />} />
 
       <Route path="/show-the-output" element={<SHOWTHEOUTPUT />} />
 

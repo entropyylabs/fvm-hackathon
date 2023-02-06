@@ -1,5 +1,4 @@
-import { Input, Button } from "@chakra-ui/react";
-import { ArrowForwardIcon } from "@chakra-ui/icons";
+import { Input, Button, Select } from "@chakra-ui/react";
 import styles from "./CreateADAO1.module.css";
 
 const CreateADAO1 = () => {
@@ -17,6 +16,7 @@ const CreateADAO1 = () => {
           size="lg"
           placeholder="Input"
           w="614px"
+          value="VB's DAO"
         />
         <Input
           className={styles.inputoutline1}
@@ -26,6 +26,7 @@ const CreateADAO1 = () => {
           size="lg"
           placeholder="Input"
           w="354px"
+          value="VBT"
         />
         <Input
           className={styles.inputoutline2}
@@ -35,6 +36,7 @@ const CreateADAO1 = () => {
           size="lg"
           placeholder="Input"
           w="354px"
+          value="1000000000"
         />
         <Input
           className={styles.inputoutline3}
@@ -44,15 +46,15 @@ const CreateADAO1 = () => {
           size="lg"
           placeholder="Input"
           w="614px"
+          value="A DAO that collected images of Vitalik Buterin to honour his contribution to the revolution. This model will give you best posters to inspire you!"
         />
         <Button
           className={styles.buttonsolidTextAndIcon}
           variant="solid"
           w="309px"
-          colorScheme="teal"
-          rightIcon={<ArrowForwardIcon />}
+          style={{ backgroundColor: "#D8FEE4" }}
         >
-          Button
+          Next
         </Button>
         <i className={styles.name}>Name</i>
         <i className={styles.tokenSymbol}>Token Symbol</i>
@@ -68,16 +70,22 @@ const CreateADAO1 = () => {
           size="lg"
           placeholder="Input"
           w="354px"
+          value="28%"
         />
-        <Input
+        <Select
+          style={{ marginTop: "10px" }}
           className={styles.inputoutline5}
           variant="outline"
           width="354px"
           borderColor="#262626"
           size="lg"
-          placeholder="Input"
+          placeholder="Choose Model"
           w="354px"
-        />
+        >
+          <option value="option1">Stable Diffusion v1.5</option>
+          <option value="option2">Stable Diffusion v2.1</option>
+          <option value="option3">Custom PyTorch model</option>
+        </Select>
         <Input
           className={styles.inputoutline6}
           variant="outline"
@@ -86,6 +94,7 @@ const CreateADAO1 = () => {
           size="lg"
           placeholder="Input"
           w="354px"
+          value="12%"
         />
         <Input
           className={styles.inputoutline7}
@@ -95,8 +104,9 @@ const CreateADAO1 = () => {
           size="lg"
           placeholder="Input"
           w="354px"
+          value="40%"
         />
-        <div className={styles.contirbutor}>Contirbutor</div>
+        <div className={styles.contirbutor}>Contributor</div>
         <div className={styles.storageProvider}>Storage provider</div>
       </div>
       <img className={styles.imageAltIcon} alt="" src="../imagealt2.svg" />

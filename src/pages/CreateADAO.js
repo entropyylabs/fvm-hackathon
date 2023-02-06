@@ -17,6 +17,7 @@ const CreateADAO = () => {
           size="lg"
           placeholder="Input"
           w="614px"
+          value="Vitalik Buterin's images"
         />
         <Input
           className={styles.inputoutline1}
@@ -26,15 +27,16 @@ const CreateADAO = () => {
           size="lg"
           placeholder="Input"
           w="614px"
+          value="5000"
         />
         <Button
           className={styles.buttonsolidTextAndIcon}
           variant="solid"
           w="309px"
-          colorScheme="teal"
+          style={{ backgroundColor: "#FEC7C7" }}
           rightIcon={<ArrowForwardIcon />}
         >
-          Button
+          Create
         </Button>
         <i className={styles.whatAreYou}>What are you collecting?</i>
         <i className={styles.addReferenceImages}>Add reference images</i>
@@ -52,6 +54,7 @@ const CreateADAO = () => {
           size="lg"
           placeholder="Input"
           w="354px"
+          value="1 tFil"
         />
         <Input
           className={styles.inputoutline3}
@@ -61,6 +64,7 @@ const CreateADAO = () => {
           size="lg"
           placeholder="Input"
           w="354px"
+          value="0.5 tFil"
         />
         <Input
           className={styles.inputoutline4}
@@ -70,6 +74,7 @@ const CreateADAO = () => {
           size="lg"
           placeholder="Input"
           w="354px"
+          value="0.25 tFil"
         />
         <div className={styles.admin}>Admin</div>
         <div className={styles.contirbutor}>Contirbutor</div>
