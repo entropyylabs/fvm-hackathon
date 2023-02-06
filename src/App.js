@@ -13,7 +13,7 @@ import SHOWTHEOUTPUT from "./pages/SHOWTHEOUTPUT";
 import HomeExplore from "./pages/HomeExplore";
 import DAOPageAsAMemberMember from "./pages/DAOPageAsAMemberMember";
 import DAOPageAsAMemberCOLLE from "./pages/DAOPageAsAMemberCOLLE";
-import ContributionPageSucess from "./pages/ContributionPageSucess";
+import ContributionPageSucess from "./pages/Contribute";
 import ContributionPageSucess1 from "./pages/ContributionPageSucess1";
 import PAYTOGENERATE from "./pages/PAYTOGENERATE";
 import ContributionPageDupes2 from "./pages/ContributionPageDupes2";
@@ -135,15 +135,9 @@ function App() {
         element={<DAOPageAsAMemberCOLLE />}
       />
 
-      <Route
-        path="/contribution-page-sucess"
-        element={<ContributionPageSucess />}
-      />
+      <Route path="/contribute" element={<ContributionPageSucess />} />
 
-      <Route
-        path="/contribution-page-sucess1"
-        element={<ContributionPageSucess1 />}
-      />
+      <Route path="/contributed" element={<ContributionPageSucess1 />} />
 
       <Route path="/pay-to-generate" element={<PAYTOGENERATE />} />
 

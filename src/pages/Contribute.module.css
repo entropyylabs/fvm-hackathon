@@ -21,9 +21,11 @@
   text-transform: capitalize;
 }
 .onlyJpegCsv {
-  top: 730px;
-  left: 439px;
-  font-size: var(--font-size-base);
+  top: 450px;
+  left: 35px;
+  width: 1214px;
+  height: 500px;
+  margin-bottom: 500px;
 }
 .frameChild,
 .imageAltIcon {
@@ -107,6 +109,9 @@
   left: 33px;
   width: 1214px;
   height: 1px;
+  height: 2px;
+  width: 1214px;
+  border-top: 1px solid black;
 }
 .headerBg,
 .progressdefault {

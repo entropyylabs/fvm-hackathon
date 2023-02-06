@@ -60,3 +60,7 @@ body {
   --br-sm: 8px;
   --br-md: 10px;
 }
+
+.ant-upload-list-item-error {
+  display: none !important;
+}
