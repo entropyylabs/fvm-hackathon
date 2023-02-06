@@ -1,4 +1,5 @@
 import { Input, Button, Select } from "@chakra-ui/react";
+import { Link } from "react-router-dom";
 import styles from "./CreateADAO1.module.css";
 
 const CreateADAO1 = () => {
@@ -48,14 +49,17 @@ const CreateADAO1 = () => {
           w="614px"
           value="A DAO that collected images of Vitalik Buterin to honour his contribution to the revolution. This model will give you best posters to inspire you!"
         />
-        <Button
-          className={styles.buttonsolidTextAndIcon}
-          variant="solid"
-          w="309px"
-          style={{ backgroundColor: "#D8FEE4" }}
-        >
-          Next
-        </Button>
+        <Link to="/confirm-dao">
+          <Button
+            className={styles.buttonsolidTextAndIcon}
+            variant="solid"
+            w="309px"
+            style={{ backgroundColor: "#D8FEE4" }}
+          >
+            Next
+          </Button>
+        </Link>
+
         <i className={styles.name}>Name</i>
         <i className={styles.tokenSymbol}>Token Symbol</i>
         <i className={styles.tokenSupply}>Token Supply</i>

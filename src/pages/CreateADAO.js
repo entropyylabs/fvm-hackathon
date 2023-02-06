@@ -1,8 +1,17 @@
 import { Input, Button } from "@chakra-ui/react";
 import { ArrowForwardIcon } from "@chakra-ui/icons";
 import styles from "./CreateADAO.module.css";
+import { useSignMessage } from "wagmi";
+import { verifyMessage } from "ethers/lib/utils";
 
 const CreateADAO = () => {
+  const { data, error, isLoading, signMessage } = useSignMessage({
+    onSuccess(data, variables) {
+      // Verify signature when sign message succeeds
+      const address = verifyMessage(variables.message, data);
+      recoveredAddress.current = address;
+    },
+  });
   return (
     <div className={styles.createADao}>
       <div className={styles.rectangleParent}>
@@ -35,6 +44,9 @@ const CreateADAO = () => {
           w="309px"
           style={{ backgroundColor: "#FEC7C7" }}
           rightIcon={<ArrowForwardIcon />}
+          onClick={() => {
+            signMessage({ message: "Creating VB's DAO" });
+          }}
         >
           Create
         </Button>
@@ -54,7 +66,7 @@ const CreateADAO = () => {
           size="lg"
           placeholder="Input"
           w="354px"
-          value="1 tFil"
+          value="1 tFIL"
         />
         <Input
           className={styles.inputoutline3}
@@ -64,7 +76,7 @@ const CreateADAO = () => {
           size="lg"
           placeholder="Input"
           w="354px"
-          value="0.5 tFil"
+          value="0.75 tFIL"
         />
         <Input
           className={styles.inputoutline4}
@@ -74,7 +86,7 @@ const CreateADAO = () => {
           size="lg"
           placeholder="Input"
           w="354px"
-          value="0.25 tFil"
+          value="0.5 tFIL"
         />
         <div className={styles.admin}>Admin</div>
         <div className={styles.contirbutor}>Contirbutor</div>
